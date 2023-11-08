@@ -13,7 +13,7 @@ const page = () => {
 
         
         {stmt.map((item)=>(
-                <div className='flex flex-col'>
+                <div key={item.id} className='flex flex-col'>
                   {item.id} - {item.name}
                 </div>
 
